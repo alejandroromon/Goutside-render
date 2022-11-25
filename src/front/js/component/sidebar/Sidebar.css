@@ -1,0 +1,32 @@
+.my-dropdown::after {
+  content: none;
+}
+
+.sidebar-size {
+  min-height: 90vh;
+}
+
+.sidebar-bg {
+  background-color: var(--color-dark-blue);
+}
+
+.sidebar-text {
+  color: var(--color-light-blue);
+  font-size: 1.5rem;
+}
+
+.sidebar-text:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+.sidebar-text:focus {
+  box-shadow:none !important;
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+.sidebar-text:visited:active{
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}

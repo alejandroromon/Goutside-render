@@ -1,0 +1,13 @@
+.library-card {
+  background-color: var(--color-light-card);
+  width: 100%;
+  height: auto;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.library-text-color {
+  color: var(--color-dark-blue);
+}

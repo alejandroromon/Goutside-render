@@ -1,0 +1,27 @@
+input {
+  width: 100%;
+}
+
+@media (min-width: 760px) {
+  input {
+    width: 75%;
+  }
+}
+
+.editprofile-photo {
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-position: center;
+}
+
+.editprofile-bg {
+  background-color: var(--color-dark-grey);
+  border: none;
+  color: var(--color-light-blue);
+  height: auto;
+}
+
+.editprofile-title {
+  color: var(--color-light-blue);
+}

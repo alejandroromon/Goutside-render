@@ -1,0 +1,17 @@
+.profile-btn-delete-bg:hover {
+  background-color: var(--color-red-hover);
+}
+
+.delete-text-color {
+  color: var(--color-dark-grey);
+}
+
+.delete-profiile-btn-danger {
+  background-color: var(--color-red);
+  color: var(--color-light);
+}
+
+.delete-profiile-btn-danger:hover {
+  background-color: var(--color-red-hover);
+  color: var(--color-dark-grey);
+}

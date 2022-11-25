@@ -1,0 +1,17 @@
+.aboutUs-title-color {
+  color: var(--color-light-blue);
+}
+
+textarea {
+  resize: both;
+}
+
+.aboutUs-logo-size {
+  width: 13vw;
+}
+
+.cofundador-img {
+  border-radius: 50%;
+  width: 8vw;
+  height: 8vw;
+}

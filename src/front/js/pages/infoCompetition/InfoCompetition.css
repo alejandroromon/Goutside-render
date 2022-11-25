@@ -1,0 +1,13 @@
+.infocompetition-img-card {
+  height: 15vw;
+  width: 13vw;
+}
+
+.infocompetition-text-p {
+  color: var(--color-dark-grey);
+}
+
+.infocompetition-card-size {
+  min-height: 20vw;
+  background-color: var(--color-light-card);
+}

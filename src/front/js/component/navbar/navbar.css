@@ -1,0 +1,108 @@
+.navbar-color {
+  background-color: var(--color-dark-blue);
+}
+
+.navbar-input {
+  line-height: 28px;
+  border: 2px solid transparent;
+  border-bottom-color: var(--color-light-blue);
+  padding: 0.2rem 0;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-light);
+  transition: 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.navbar-input::placeholder {
+  color: var(--color-light);
+}
+
+.navbar-input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.btn-menu {
+  
+  height: 3rem;
+  background: var(--color-dark-blue);
+  color: var(--color-light);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 780px) {
+  .btn-menu {
+    width: 14rem;
+  }
+}
+
+.btn-menu span {
+  text-transform: uppercase;
+  transition: top 0.5s;
+}
+
+.btn-icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.btn-text {
+  position: absolute;
+  color: var(--color-light);
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+}
+
+@media (min-width: 790px) {
+  .btn:hover .btn-icon {
+    top: -100%;
+  }
+
+  .btn:hover .btn-text {
+    top: 50%;
+  }
+  .btn:focus .btn-icon{
+    top: -100%;
+  }
+  .btn:focus .btn-text{
+    top: 50%;
+  }
+}
+
+.navbar-photo-profile {
+  width: 8vw;
+  height: 8vw;
+  border-radius: 50%;
+}
+
+.navbar-menu-button {
+  color: var(--color-light-blue);
+}
+
+.navbar-menu-button:hover {
+  background-color: var(--color-red);
+  color: var(--color-light);
+}
+
+.navbar-menu-li {
+  color: var(--color-light-blue);
+}
+.navbar-menu-li:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+.navbar-logo-size {
+  max-width: 10vw;
+  max-height: 10vw;
+}

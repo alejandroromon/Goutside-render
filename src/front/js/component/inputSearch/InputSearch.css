@@ -1,0 +1,64 @@
+.inputForm {
+  position: relative;
+  width: 50vw;
+  background: var(--color-light-blue);
+  border-radius: var(--rad);
+}
+
+.inputSearch,
+.inputButton {
+  height: var(--height);
+  border: 0;
+  color: var(--color-dark-grey);
+}
+
+.inputSearch{
+  outline: 0;
+  font-size: 1.5vw;
+  width: 100%;
+  background: var(--color-light);
+  border-radius: var(--rad);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: all var(--dur) var(--bez);
+  transition-property: width, border-radius;
+  z-index: 1;
+  position: relative;
+}
+
+.inputButton {
+  font-size: 1vw;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: var(--btn-width);
+  font-weight: bold;
+  background: var(--color-light-blue);
+  border-radius: 0 var(--rad) var(--rad) 0;
+}
+
+.inputSearch:not(:-moz-placeholder-shown) {
+  border-radius: var(--rad) 0 0 var(--rad);
+  width: calc(100% - var(--btn-width));
+}
+
+.inputSearch:not(:-ms-input-placeholder) {
+  border-radius: var(--rad) 0 0 var(--rad);
+  width: calc(100% - var(--btn-width));
+}
+
+.inputSearch:not(:placeholder-shown) {
+  border-radius: var(--rad) 0 0 var(--rad);
+  width: calc(100% - var(--btn-width));
+}
+.inputSearch:not(:-moz-placeholder-shown) + .inputButton {
+  display: block;
+}
+.inputSearch:not(:-ms-input-placeholder) + .inputButton {
+  display: block;
+}
+.inputSearch:not(:placeholder-shown) + .inputButton {
+  display: block;
+}

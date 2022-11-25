@@ -1,0 +1,10 @@
+.mensaje-error {
+  background-color: var(--color-red);
+}
+
+.mensaje-correcto {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+

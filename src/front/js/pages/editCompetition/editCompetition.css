@@ -1,0 +1,18 @@
+.create-comp-cont {
+  background-color: var(--color-dark-blue);
+}
+
+.createCompetition-btn-primary {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+.createCompetition-btn-primary:hover {
+  background-color: var(--color-light);
+}
+.input-date{
+  height: 40px;
+}
+.form-control, .basic-multi-select, .basic-single, .input-date {
+  font-size:1.5vw
+}
