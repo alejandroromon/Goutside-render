@@ -81,7 +81,10 @@ const getState = ({ getStore, getActions, setStore }) => {
       getUser: async () => {
         const options = {
           method: "GET",
-          headers: { Authorization: "Bearer " + getActions().getTokenLS() },
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer " + getActions().getTokenLS(),
+          },
         };
         try {
           const resp = await fetch(
@@ -155,7 +158,10 @@ const getState = ({ getStore, getActions, setStore }) => {
       deleteUser: async () => {
         const options = {
           method: "DELETE",
-          headers: { Authorization: "Bearer " + getActions().getTokenLS() },
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: "Bearer " + getActions().getTokenLS(),
+          },
         };
         try {
           const resp = await fetch(
